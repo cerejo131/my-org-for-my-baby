@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Fantiny 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Pacifico', cursive;
+      background: linear-gradient(135deg, #ffb6c1, #000000);
+      color: white;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      font-size: 2em;
+    }
+    .declaration {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(5px);
+      font-size: 1.2em;
+      line-height: 1.8em;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 0 15px #ff69b4;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .heart {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat center/contain;
+      animation: floatHearts 8s linear infinite;
+    }
+    @keyframes floatHearts {
+      0% {
+        transform: translateY(100vh) scale(0.5);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.2);
+        opacity: 0;
+      }
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="Hotel_Transylvania_-_Voc_Meu_Tchan_(mp3.pm).mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+  <header>💗 Para Fantiny Raquely 💗</header>
+  <div class="declaration">
+    oiiiiiiii meuu amorzinhao eu queria te falar o quanto q eu tenho orgulho por amar vc e ser feliz com vc. eu sou mt sortudo por ter encontrado vc na minha vida e vc apareceu no momento que eu mais precisei e sempre vai estar cmg e eu com vc . eu quero q vc seja feliz e livre cmg e oq eu mais quero nessa vida é me casar com a senhorita que é vc. e eu amo estar do seu lado ouvir sua voz e ouvir sua risada e olhar nos seus olhos e ver o quaaaaaaantooooooo q eu sou sortudo por ter uma mulher forte, corajosa, inteligente, incrivel,bonita,bela,delicada e fiel.  fantiny eu sei bem q vc esta lendo isso com um sorriso e vendo q o seu namorado faz as coisas mais fofa pra vc kkkkkk. mas amor eu faço isso pq eu amo ver o seu sorriso e ver sua felicidade . eu n me importo de gastar o meu dinheiro todo com vc amor sabe o pq? pq pra mim o dinheiro n tem valor mas o valor do seu sorriso é mt mais q qualquer coisa nessa terra . eu lhe a amo amor e sempre amarei e estarei contigo em todos os momentos minha flor. com todo o carinho e amor por vc cerejo:)
+  </div>
+  <div class="gallery">
+    <img src="Imagem%20do%20WhatsApp%20de%202025-07-27%20%C3%A0(s)%2013.27.44_bd18fa67.jpg">
+    <img src="Imagem%20do%20WhatsApp%20de%202025-07-27%20%C3%A0(s)%2013.27.44_75b9f7ef.jpg">
+    <img src="517392196_23974778908817063_1754046155533537838_n.jpg">
+    <img src="519472833_1262654648567300_5272656693331542338_n.jpg">
+    <img src="517038502_737671585780593_2446250438676357524_n.jpg">
+  </div>
+  <div class="hearts"></div>
+  <script>
+    const heartsContainer = document.querySelector('.hearts');
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (Math.random() * 5 + 5) + 's';
+      heartsContainer.appendChild(heart);
+      setTimeout(() => heart.remove(), 8000);
+    }
+    setInterval(createHeart, 400);
+  </script>
+</body>
+</html>
+
+
+
+<audio autoplay loop>
+  <source src="musicas/voce_e_meu_tchan.mp3" type="audio/mpeg">
+ 
+</audio> 
+  <div class="assinatura">Feito com ❤️ por Cerejo</div>
+
+</body>
+</html>
